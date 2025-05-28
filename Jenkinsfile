@@ -22,7 +22,7 @@ pipeline{
 		stage('Run Application'){
 			steps{
 				sh 'java -jar target/MAVEN-1.0-SNAPSHOT.jar'
-	}
+			}
 	}
 	post{
 		success{
