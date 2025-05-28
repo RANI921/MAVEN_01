@@ -24,6 +24,7 @@ pipeline{
 				sh 'java -jar target/MAVEN-1.0-SNAPSHOT.jar'
 			}
 	}
+	}
 	post{
 		success{
 			echo "Build success"
